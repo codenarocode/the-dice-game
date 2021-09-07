@@ -9,13 +9,13 @@ document.querySelector(".img2").setAttribute("src","images/dice" +random2 +".png
 
 
 if(random1==random2){
-  document.querySelector("h1").innerHTML="🎈Match Draw!🎈";
+  document.querySelector("h1").innerHTML="🎈Match Draw!";
 }
 
 else if(random1>random2){
-    document.querySelector("h1").innerHTML="🚩Alpha Wins!🚩";
+    document.querySelector("h1").innerHTML="🚩Alpha Wins!";
 }
 else{
-  document.querySelector("h1").innerHTML="🚩Sigma Wins!🚩";
+  document.querySelector("h1").innerHTML="🚩Sigma Wins!";
 
 }
